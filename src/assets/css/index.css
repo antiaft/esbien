@@ -1,13 +1,16 @@
 @import './normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 :root {
   --primary-color: #fe5262;
   --secondary-color: #cce0ff;
   --font-size: 16px;
   --base-font-color: #393193;
+  --bg-gray-color: #f7f7f7;
   --base-font-family: "Inter Tight", 'Arial', 'Helvetica', 'Ubuntu', 'Open Sans',
     'Segoe UI', 'Roboto', sans-serif;
+  --heading-font-family: "Paytone One", var(--base-font-family);
   --breakpoint-mobile: 480px;
   --breakpoint-tablet: 768px;
   --breakpoint-laptop: 1024px;
@@ -35,9 +38,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: var(--base-font-family);
-  line-height: 1.5;
+  line-height: 1.35;
   font-weight: 400;
-  color-scheme: light dark;
 }
 
 *,
@@ -58,6 +60,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var( --heading-font-family);
   letter-spacing: initial;
   font-weight: 900;
 }
@@ -83,6 +86,7 @@ img,
 picture {
   margin: 0;
   max-width: 100%;
+  max-height: 100%;
 }
 
 ul {

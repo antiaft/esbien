@@ -2,17 +2,15 @@
   width: 100%;
   display: flex;
   margin: 0 auto;
-  max-width: 1240px;
+  max-width: var(--breakpoint-laptop);
   justify-content: space-between;
   align-items: center;
   padding: 0 10px 10px 10px;
-
   img {
     width: 120px;
     position: relative;
     z-index: 10;
   }
-
   @media (min-width: 769px) {
     border-bottom: none;
     padding: 10px 0px;

@@ -1,0 +1,11 @@
+.mailto-button {
+  position: relative;
+  display: block;
+  border-radius: 50px;
+  background-color: var(--primary-color);
+  padding: 6px 18px;
+  color: white;
+  margin: 0;
+  font-weight: 600;
+  width: fit-content;
+}
