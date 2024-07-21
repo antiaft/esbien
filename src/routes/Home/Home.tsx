@@ -1,9 +1,13 @@
 import Header from '../../components/Header/Header'
-
-import whales from '/images/whales.png'
-import './Home.css'
-import MailtoButton from '../../components/MailtoButton/MailtoButton'
+import { DotLottiePlayer } from '@dotlottie/react-player'
+import '@dotlottie/react-player/dist/index.css'
 import Footer from '../../components/Footer/Footer'
+import MailtoButton from '../../components/MailtoButton/MailtoButton'
+
+import anti from '/images/anti.jpeg'
+import mari from '/images/mari.jpeg'
+
+import './Home.css'
 
 const Home = () => {
   return (
@@ -20,17 +24,15 @@ const Home = () => {
           </div>
         </div>
         <div className="split-side side-right">
-          <img src={whales} className="logo" alt="Vite logo" />
+        <DotLottiePlayer src="/lotties/think.lottie" autoplay loop />
         </div>
       </section>
       <section id="parallax-section">
-        <div className="container">
-          <h1>Tu historia es buena, contarla ES BIEN.</h1>
-        </div>
+        <h1>Tu historia es buena, contarla ES BIEN.</h1>
       </section>
       <section id="hello" className="container split-container">
         <div className="split-side side-left">
-          <img src={whales} className="logo" alt="Vite logo" />
+          <DotLottiePlayer src="/lotties/about.lottie" autoplay loop />
         </div>
         <div className="split-side side-right">
           <div className="wrapper">
@@ -39,14 +41,16 @@ const Home = () => {
             <p>Una es zurda, la otra diestra. Una tiene estilo, la otra imaginación /Una es estilosa, la otra imaginativa/Una sueña mucho, la otra lo aterriza todo. Una crea mucho, la otra crea más.</p>
             <p>Y así, entre las dos, tenemos una personalidad estupenda. Si nos cuentas tu historia, la haremos más fascinante.</p>
             <p>¿No sabes por donde empezar? Pues...</p>
-            <a href="/#intro">Aquí es</a>
+            <a href="/#intro">¡Aquí es!</a>
           </div>
         </div>
       </section>
       <section id="about-us">
         <div className="container">
           <article className="about-card">
-            <section className="about-card-image" />
+            <section className="about-card-image">
+              <img src={mari} alt="" />
+            </section>
             <section className="about-card-data">
               <h2>María Mediero</h2>
               <h3>Compromiso y corrección lingüística</h3>
@@ -57,7 +61,9 @@ const Home = () => {
           </article>
 
           <article className="about-card">
-            <section className="about-card-image" />
+          <section className="about-card-image">
+              <img src={anti} alt="" />
+            </section>
             <section className="about-card-data">
               <h2>Antía F. Tejo</h2>
               <h3>Empatía y estrategia comunicativa</h3>
