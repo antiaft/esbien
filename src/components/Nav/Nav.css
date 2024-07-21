@@ -1,0 +1,51 @@
+[id='navbar'] {
+  > ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    li {
+      display: flex;
+      gap: 10px
+    }
+    a {
+      border: 1px solid #E7E7E7;
+      padding: 10px 14px;
+      border-radius: 14px;
+      display: block;
+      color: var(--base-font-color);
+      border-radius: 40px;
+      line-height: 1;
+    }
+  }
+  @media (max-width: 768px) {
+    .expand {
+      min-width: 300px;
+    }
+    > .menu-panel {
+      opacity: 0;
+      pointer-events: none;
+      background-color: white;
+      z-index: 1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      transition: all 0.3s ease-in-out;
+      padding-bottom: 20vh;
+    }
+    [id="restake-item"] {
+      order: -1;
+    }
+    &.open-menu {
+      .menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+      }
+    }
+  }
+}

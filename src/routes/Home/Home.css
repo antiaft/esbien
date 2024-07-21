@@ -1,0 +1,13 @@
+#home {
+  text-align: center;
+  @media screen and (min-width: 481px) {
+    h1 {
+      font-size: 36px;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
