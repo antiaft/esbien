@@ -4,6 +4,9 @@
   padding: 20px;
   width: 100%;
   text-align: center;
+  a {
+    color: white;
+  }
   img {
     width: 120px;
     position: relative;

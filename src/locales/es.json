@@ -1,4 +1,60 @@
 {
-  "not-found.title": "Not founded",
-  "home.title": "Hola world"
+  "creation": "Creación",
+  "consulting": "Consultoría",
+  "about-us": "Nosotras",
+  "editing": "Corrección",
+  "talk": "¿Hablamos?",
+  "writing": "Redacción",
+  "all-right": "All Rights Reserved",
+  "tell-us": "Cuéntame más",
+  "what-we-do.title": "¿Qué hacemos?",
+  "what-card.narrative": "Narrativa",
+  "what-card.narrative-1": "# Identidad de empresa (storytelling desde cero, voz corporativa, imaginario de marca, manual de estilo corporativo).",
+  "what-card.narrative-2": "# Identidad personal (diseño y comunicación de tu historia de impacto).",
+
+  "what-card.writing": "Redacción",
+  "what-card.writing-1": "# Storytelling personal y empresarial.",
+  "what-card.writing-2": "# Redacción social, ética y verde (artículos temáticos, newsletters).",
+  "what-card.writing-3": "# Textos web corporativos y personales.",
+  "what-card.writing-4": "# Conversión de tu historia en libro.",
+
+  "what-card.consulting": "Consultoría",
+  "what-card.consulting-1": "Esto no va de marketing, va de conectar. A veces tu idea es buena pero le falta forma y necesitas orientación.",
+  "what-card.consulting-2": "# Comunicación para empresas y proyectos.",
+  "what-card.consulting-3": "# Comunicación personal.",
+  "what-card.consulting-4": "# Coherencia en el discurso.",
+
+  "what-card.editing": "Corrección",
+  "what-card.editing-1": "# Ortotipográfica y gramatical.",
+  "what-card.editing-2": "# De estilo.",
+  "what-card.editing-3": "# Eliminación de sesgos.",
+  "what-card.editing-4": "# Servicio especial gallego (idiomaticidad y errores frecuentes).",
+    "what-card.editing-5": "# Traducción a gallego.",
+
+  "here": "¡Aquí es!",
+  "hello.title": "Nosotras",
+  "hello.text-1": "Es bien somos Antía y María. Amigas desde los 15, rodeadas de libros desde los 3.",
+  "hello.text-2": "Una es zurda, la otra diestra. Una tiene estilo, la otra imaginación. Una escribe mucho, la otra escribe más",
+  "hello.text-3": "En 2023 nos dimos cuenta de que éramos dos piezas que encajaban y nos unimos para cambiar el cuento.",
+  "hello.text-4": "Si nos explicas tu historia, la haremos más fascinante.",
+  "hello.text-5": "¿No sabes por donde empezar? Pues...",
+
+  "about-card.mari.title": "Ideas y corrección",
+  "about-card.mari.text-1": "Tras 10 años como traductora y editora dando voz a otros, ahora te da voz a ti.",
+  "about-card.mari.text-2": "Especialista en redacción social, síntesis de ideas, storytelling ético, comunicación de impacto, lenguaje natural y peces/Galicia/caminatas.",
+  "about-card.mari.text-3": "El último test que ha hecho dice que es creativa, didáctica y emocional. Ah, es la zurda de las dos.",
+
+  "about-card.anti.title": "Transformación y comunicación",
+  "about-card.anti.text-1": "Antía aterriza cosas. Filóloga de formación, consultora de marketing de profesión, conecta ideas, personas y conceptos.",
+  "about-card.anti.text-2": "Experta en la comunicación con la clientela y pequeños proyectos de impacto.",
+  "about-card.anti.text-3": "Nadie sabe de dónde saca todos esos stickers que tiene.",
+
+  "newsletter.title": "Suscribirte a nuestra newsletter, es bien.",
+
+  "intro.title": "Cuenta lo que quieras, pero cuéntalo bien.",
+  "intro.text": "Convertimos textos aburridamente ordinarios en historias humanamente extraordinarias.",
+
+  "privacy": "Política de privacidad",
+  "legal": "Aviso legal"
+
 }

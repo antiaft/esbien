@@ -4,23 +4,30 @@ import NotFound from './routes/NotFound/NotFound'
 import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary'
 import { Suspense } from 'react'
 import messagesEs from './locales/es.json'
+import messagesGal from './locales/gal.json'
 import { IntlProvider } from 'react-intl'
 import Spinner from './components/Spinner/Spinner'
-import type { Language } from './types'
+import Privacy from './routes/Privacy/Privacy'
+import { useTranslations } from './hooks/useTranslations'
+import Legal from './routes/Legal/Legal'
 
 import './App.css'
 
 const messages = {
-  es: messagesEs
+  es: messagesEs,
+  gal: messagesGal
 }
 
-const App = ({ locale }: { locale: Language }) => {
+const App = () => {
+  const { currentLocale } = useTranslations()
   return (
-    <ErrorBoundary>
+    <ErrorBoundary key={currentLocale}>
       <Suspense fallback={<Spinner />}>
-        <IntlProvider locale={locale} messages={messages[locale]}>
+        <IntlProvider locale={currentLocale} messages={messages[currentLocale]}>
           <Routes>
             <Route path="/" index element={<Home />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/legal" element={<Legal />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </IntlProvider>

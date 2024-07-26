@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import MailtoButton from '../MailtoButton/MailtoButton'
 
 import './Nav.css'
-import MailtoButton from '../MailtoButton/MailtoButton'
+import { FormattedMessage } from '../Intl/FormattedMessage'
+import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher'
 
 export default function Nav() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -11,33 +13,46 @@ export default function Nav() {
       <ul className="menu-panel">
         <li>
           <Link className="nav-link" to="/#creation">
-            <span>Creación</span>
+            <span>
+              <FormattedMessage id="creation" />
+            </span>
           </Link>
         </li>
         <li>
           <Link className="nav-link" to="/#creation">
-            <span>Redacción</span>
+            <span>
+              <FormattedMessage id="writing" />
+            </span>
           </Link>
         </li>
         <li>
           <Link className="nav-link" to="/#about-us">
-            <span>Corrección</span>
+            <span>
+              <FormattedMessage id="consulting" />
+            </span>
           </Link>
         </li>
         <li>
-          <Link className="nav-link" to="/#about-us">
-            <span>Consultoría</span>
+          <Link className="nav-link" to="/">
+          <span>
+              <FormattedMessage id="editing" />
+            </span>
           </Link>
         </li>
         <li>
-          <Link className="nav-link" to="/#about-us">
-            <span>Nosotras</span>
+          <Link className="nav-link" to="/#hello">
+          <span>
+              <FormattedMessage id="about-us" />
+            </span>
           </Link>
         </li>
         <li>
           <MailtoButton email="destinatario@example.com">
-            ¿Hablamos?
+            <FormattedMessage id="talk" />
           </MailtoButton>
+        </li>
+        <li>
+          <LanguageSwitcher />
         </li>
       </ul>
       <ul className="only-responsive">

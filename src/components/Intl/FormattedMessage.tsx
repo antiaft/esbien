@@ -1,7 +1,7 @@
 import { FormattedMessage as IntlFormattedMessage } from 'react-intl'
 import type { Props } from 'react-intl/src/components/message'
 import { ReactNode } from 'react'
-import message from '../../locales/en.json'
+import message from '../../locales/es.json'
 
 type IntlMessageKeys = keyof typeof message
 

@@ -6,7 +6,7 @@ import './Menu.css'
 export default function Menu() {
   return (
     <ul id="menu">
-      <img src={logo} alt="" />
+      <img src={logo} alt="es bien logo" />
       <Nav />
     </ul>
   )
