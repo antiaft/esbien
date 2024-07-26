@@ -10,6 +10,7 @@ import Spinner from './components/Spinner/Spinner'
 import Privacy from './routes/Privacy/Privacy'
 import { useTranslations } from './hooks/useTranslations'
 import Legal from './routes/Legal/Legal'
+import Internal from './routes/Internal/Internal'
 
 import './App.css'
 
@@ -26,6 +27,7 @@ const App = () => {
         <IntlProvider locale={currentLocale} messages={messages[currentLocale]}>
           <Routes>
             <Route path="/" index element={<Home />} />
+            <Route path="/internal" element={<Internal />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/legal" element={<Legal />} />
             <Route path="*" element={<NotFound />} />

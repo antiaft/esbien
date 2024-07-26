@@ -1,4 +1,5 @@
 import Nav from '../Nav/Nav'
+import { Link } from 'react-router-dom'
 
 import logo from '/images/logo.png'
 import './Menu.css'
@@ -6,7 +7,9 @@ import './Menu.css'
 export default function Menu() {
   return (
     <ul id="menu">
-      <img src={logo} alt="es bien logo" />
+      <Link to="/">
+        <img src={logo} alt="es bien logo" />
+      </Link>
       <Nav />
     </ul>
   )

@@ -3,10 +3,10 @@ import { FormattedMessage } from '../Intl/FormattedMessage';
 import './Footer.css'
 
 interface FooterProps {
-  companyName: string;
+  companyName?: string;
 }
 
-const Footer = ({ companyName }: FooterProps) => {
+const Footer = ({ companyName = 'EsBien.' }: FooterProps) => {
   return (
     <footer id="colophon">
       <nav>

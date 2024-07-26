@@ -1,0 +1,21 @@
+#internal {
+  > section {
+    min-height: 40vh;
+    text-align: center;
+    h1 {
+      text-wrap: balance;
+    }
+  }
+
+  @media screen and (min-width: 481px) {
+    h1 {
+      font-size: 32px;
+      line-height: 1.1;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    h1 {
+      font-size: 42px;
+    }
+  }
+}
