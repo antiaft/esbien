@@ -6,7 +6,7 @@ import './Intro.css'
 
 const Intro = () => {
   return (
-    <section id="intro" className="container split-container">
+    <section className="container split-container">
       <div className="split-side side-left">
         <div className="wrapper">
           <h1><FormattedMessage id="intro.title" /></h1>

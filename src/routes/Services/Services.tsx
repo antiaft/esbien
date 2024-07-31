@@ -5,11 +5,11 @@ import Writing from './Sections/Writing/Writing'
 import Consulting from './Sections/Consulting/Consulting'
 import Editing from './Sections/Editing/Editing'
 
-import './Internal.css'
+import './Services.css'
 
-const Internal = () => {
+const Services = () => {
   return (
-    <div id="internal" className="page">
+    <div id="services" className="page">
       <Header />
       <Creation />
       <Writing />
@@ -20,4 +20,4 @@ const Internal = () => {
   )
 }
 
-export default Internal
+export default Services

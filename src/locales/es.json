@@ -62,11 +62,72 @@
 
   "consulting.title": "Consultoría.",
 
-
   "editing.title": "Corrección.",
   "editing.text": "Los detalles finales son los que más cuestan. Delégalos en profesionales de la lengua y sus  matices.",
 
   "privacy": "Política de privacidad",
-  "legal": "Aviso legal"
+  "legal": "Aviso legal",
 
+  "creation.company.title": "Identidad de empresa",
+  "creation.company.text-1": "Crea tu ecosistema de marca desde cero. Eslogan clave, mensaje, perfil de empresa y datos de impacto.",
+  "creation.company.text-2": "Te entregamos un dossier de comunicación con las claves de tu narrativa. Transmite desde la emoción, con sencillez y claridad.",
+  "creation.company.text-3": "Trabajamos con pymes de la economía social y circular, empresas de triple balance y proyectos sostenible: los proyectos de nuestros clientes son soluciones. Objetivo: que lleguen e inspiren.",
+
+  "creation.personal.title": "Identidad personal",
+  "creation.personal.text-1": "Tu historia es tu huella y tu identidad personal debe estar en línea con tu proyecto.",
+  "creation.personal.text-2": "Encontramos tus puntos de conexión con los demás para que tu mensaje empodere y ayude al cambio en el que crees.",
+  "creation.personal.text-3": "Damos con el lenguaje que te representa y permita intervenir en público dejando tus miedos atrás. Transmite tu mensaje desde tu comodidad.",
+  "creation.personal.text-4": "Sabes que eres bueno, te enseñamos a contarlo.",
+
+  "writing.storytelling.title": "Storytelling",
+  "writing.storytelling.text-1": "Tú nos cuentas tu mensaje tus logros, tu impacto y tus dificultades, nosotros escribimos tu historia.",
+  "writing.storytelling.text-2": "Aprender a no convencer, sino a dar ejemplo. Escribimos tu historia para que hable de ti.",
+  "writing.storytelling.text-3": "Estampas ordinarias convertidas en historias extraordinarias.",
+
+  "writing.social.title": "Redacción social",
+  "writing.social.text-1": "Nos fiamos más de los algoritmos que de los humanos y por eso todos los textos se parecen.",
+  "writing.social.text-2": "Escribimos tus newsletters, artículos, (o te proponemos los nuestros) con ingenio, transparencia y pasión.",
+  "writing.social.text-3": "Comunicación sensorial con conciencia social. La lectura deliciosa engancha.",
+
+  "writing.web.title": "Storytelling",
+  "writing.web.text-1": "Cuéntanos de qué va tu web y crearemos los contenidos.",
+  "writing.web.text-2": "Humaniza tus textos e inspira. Conecta con la gente con un propósito común y haz que suceda la magia.",
+  "writing.web.text-3": "Ofrecemos también servicios de SEO.",
+
+  "writing.book.title": "Tu historia en libro",
+  "writing.book.text-1": "Regala al abuelo un libro con la aventura que siempre cuenta, deja por escrito todas las anécdotas de aquel viaje de amigas o reúne las recetas de la familia para Navidad.",
+  "writing.book.text-2": "Llamanos o mándanos un audio con ese recuerdo especial que quieres dejar para la posteridad.",
+
+  "consulting.company.title": "Comunicación empresarial.",
+  "consulting.company.text-1": "Tu proyecto es bueno, pero no llega, no impacta. Algo falla. Analizamos la cohesión y coherencia de tus actos comunicativos como marca",
+  "consulting.company.text-2": "¿Existe un hilo conductor entre todos los miembros? ¿Un perfil empresarial claro? ¿Una voz que os define?",
+  "consulting.company.text-3": "Aprende a hablar bien de tu empresa. Nos interesa tu impacto.",
+
+  "consulting.personal.title": "Comunicación personal.",
+  "consulting.personal.text-1": "¿Tienes la idea pero la estrategia falla? A veces, saber parar a tiempo es ir más rápido.",
+  "consulting.personal.text-2": "Revisamos tus apariciones e intervenciones en prensa para asesorarte en tu relato. Aprende a hablar de tu marca personal para que siempre parezca la primera vez.",
+  "consulting.personal.text-3": "Tu historia es un orgullo, disfruta contándola.",
+
+  "consulting.coherence.title": "Coherencia en el discurso.",
+  "consulting.coherence.text-1": "¿Eres coherente en todas tus publicaciones y apariciones? ¿Y el resto de tu equipo?",
+  "consulting.coherence.text-2": "Vertebramos tu lenguaje y modo de expresarte, y creamos un libro de estilo para que potencies tu impacto local.",
+  "consulting.coherence.text-3": "Pon foco en tu enfoque verde y social.",
+
+  "editing.orto.title": "Ortotipográfica.",
+  "editing.orto.text-1": "Revisión de errores gramaticales, ortográficos y de puntuación.",
+  "editing.orto.text-2": "Textos web, newsletters, libros, artículos, tesis y publicaciones.",
+  "editing.orto.text-3": "Un mensaje bien escrito llega a más mentes y transmite profesionalidad y atención por los detalles.",
+
+  "editing.style.title": "De estilo.",
+  "editing.style.text-1": "Un texto puede estar bien escrito y no entenderse en absoluto.",
+  "editing.style.text-2": "Además de subsanar gramática y ortotipografía, revisamos la fluidez, legibilidad y comprensión del mensaje. Garantizando la claridad y coherencia y eliminando ambigüedades del discurso.",
+
+  "editing.deleting.title": "Eliminación de sesgos.",
+  "editing.deleting.text-1": "Somos expertas en lenguaje inclusivo, respetuoso y sin etiquetas.",
+  "editing.deleting.text-2": "Nuestro imaginario colectivo está sesgado y puede discriminar a grupos vulnerables. Revisamos tu comunicación para sea igualitaria sin dejar de sonar orgánica.",
+
+  "editing.galician.title": "Gallego.",
+  "editing.galician.text-1": "Mejora oral o escrita de tu expresión en gallego. Analizamos tu comunicación y depuramos los errores frecuentes. Trabajo a medida.",
+  "editing.galician.text-2": "¿Te gustaría que tus textos fuesen bilingües pero con la IA quedan un poco rancios? Nos encargamos de {bold} lo que tú quieras. O de escribirlo desde cero.",
+  "editing.galician.bold": "traducir a gallego"
 }
