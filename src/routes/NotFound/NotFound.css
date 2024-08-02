@@ -1,9 +1,9 @@
 #not-found {
   text-align: center;
-
   strong {
     display: block;
     line-height: 1;
+    color: var(--primary-color);
   }
   > .container {
     min-height: 70vh;

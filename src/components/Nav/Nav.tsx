@@ -19,7 +19,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link className="nav-link" to="/services#writing">
+          <Link className="nav-link" to="/services/#writing">
             <span>
               <FormattedMessage id="writing" />
             </span>

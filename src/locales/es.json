@@ -129,5 +129,7 @@
   "editing.galician.title": "Gallego.",
   "editing.galician.text-1": "Mejora oral o escrita de tu expresión en gallego. Analizamos tu comunicación y depuramos los errores frecuentes. Trabajo a medida.",
   "editing.galician.text-2": "¿Te gustaría que tus textos fuesen bilingües pero con la IA quedan un poco rancios? Nos encargamos de {bold} lo que tú quieras. O de escribirlo desde cero.",
-  "editing.galician.bold": "traducir a gallego"
+  "editing.galician.bold": "traducir a gallego",
+
+  "not-found": "No encontrado"
 }
