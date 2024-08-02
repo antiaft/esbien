@@ -1,14 +1,29 @@
 #not-found {
   text-align: center;
 
+  strong {
+    display: block;
+    line-height: 1;
+  }
+  > .container {
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+  }
   @media screen and (min-width: 481px) {
     h1 {
       font-size: 36px;
+      strong {
+        font-size: 60px;
+      }
     }
   }
   @media screen and (min-width: 1025px) {
     h1 {
       font-size: 40px;
+      strong {
+        font-size: 80px
+      }
     }
   }
 }

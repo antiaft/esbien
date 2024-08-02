@@ -32,7 +32,12 @@ const Editing = () => {
           <article>
             <h2><FormattedMessage id="editing.galician.title" /></h2>
             <p><FormattedMessage id="editing.galician.text-1" /></p>
-            <p><FormattedMessage id="editing.galician.text-2" values={{ bold: <strong><FormattedMessage id="editing.galician.bold" /></strong> }} /></p>
+            <p>
+              <FormattedMessage
+                id="editing.galician.text-2"
+                values={{ bold: <strong><FormattedMessage id="editing.galician.bold" /></strong> }}
+              />
+            </p>
           </article>
         </section>
       </div>
