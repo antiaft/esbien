@@ -5,6 +5,7 @@ import postcssNested from 'postcss-nested'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/esbien/',
   plugins: [react()],
   css: {
     postcss: {
