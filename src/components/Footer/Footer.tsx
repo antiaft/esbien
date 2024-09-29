@@ -18,9 +18,15 @@ const Footer = ({ companyName = 'EsBien.' }: FooterProps) => {
         </Link>
       </nav>
       <section id="social-links">
-        <a href="/facebook">facebook</a>
-        <a href="/facebook">instagram</a>
-        <a href="/facebook">linkedin</a>
+        <a href="/facebook">
+          <i className="material-icons">facebook</i>
+        </a>
+        <a href="/facebook">
+          <i className="material-icons">instagram</i>
+        </a>
+        <a href="/facebook">
+          <i className="material-icons">linkedin</i>
+        </a>
       </section>
       <p>© {new Date().getFullYear()} <strong>{companyName}</strong> - <span><FormattedMessage id="all-right" /></span></p>
     </footer>

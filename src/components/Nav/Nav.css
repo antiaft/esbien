@@ -1,4 +1,9 @@
 [id='navbar'] {
+  i {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+  }
   > ul {
     display: flex;
     align-items: center;

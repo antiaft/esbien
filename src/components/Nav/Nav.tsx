@@ -57,10 +57,7 @@ export default function Nav() {
       </ul>
       <ul className="only-responsive">
         <li>
-          <span
-            className={`icon icon-${openMenu ? 'close' : 'menu'}`}
-            onClick={() => setOpenMenu(!openMenu)}
-          />
+          <i onClick={() => setOpenMenu(!openMenu)} className="material-icons">{openMenu ? 'close' : 'menu'}</i>
         </li>
       </ul>
     </nav>

@@ -24,6 +24,7 @@ const WhatWeDo = () => {
             <p><FormattedMessage id="what-card.writing-2" /></p>
             <p><FormattedMessage id="what-card.writing-3" /></p>
             <p><FormattedMessage id="what-card.writing-4" /></p>
+            
           </div>
           <a className="button">
             <FormattedMessage id="tell-us" />
