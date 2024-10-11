@@ -26,7 +26,7 @@ const App = () => {
       <Suspense fallback={<Spinner />}>
         <IntlProvider locale={currentLocale} messages={messages[currentLocale]}>
           <Routes>
-            <Route path="/" index element={<Home />} />
+            <Route path="/esbien" index element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/legal" element={<Legal />} />
