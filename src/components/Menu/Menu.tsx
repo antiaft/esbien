@@ -7,7 +7,7 @@ import './Menu.css'
 export default function Menu() {
   return (
     <ul id="menu">
-      <Link to="/">
+      <Link to="/esbien">
         <img src={logo} alt="es bien logo" />
       </Link>
       <Nav />

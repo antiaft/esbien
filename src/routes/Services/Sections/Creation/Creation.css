@@ -1,8 +1,17 @@
 #creation {
-  h1 {
-    color: var(--primary-color);
-  }
   .split-container {
     text-align: left;
+  }
+  > section {
+    padding: 20px 0;
+    background-size: cover;
+    background-image: url('/images/creation-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 0 1000px #00000088;
+    h1, p {
+      color: white;
+      text-shadow: 0 0 2px #00000088;
+    }
   }
 }

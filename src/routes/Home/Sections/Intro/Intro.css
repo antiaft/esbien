@@ -1,6 +1,8 @@
 #intro {
   .side-right {
     animation: fade 0.5s both ease-in-out 0.8s;
+    background-image: url('/images/whales.png');
+    background-size: cover;
   }
   h1 {
     animation: fade .5s both ease-in-out 0.2s;

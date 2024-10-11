@@ -5,13 +5,15 @@ import './Creation.css'
 const Creation = () => {
   return (
     <section id="creation">
-      <div className="container">
+      <section id="creation-banner">
         <h1>
           <FormattedMessage id="creation.title" />
         </h1>
-        <p>
+        <p className="introduction">
           <FormattedMessage id="creation.text" />
         </p>
+      </section>
+      <div className="container">
         <section className="split-container">
           <div className="split-side side-left">
             <div className="wrapper">

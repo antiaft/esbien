@@ -9,7 +9,7 @@ const Editing = () => {
         <h1>
           <FormattedMessage id="editing.title" />
         </h1>
-        <p>
+        <p className="introduction">
           <FormattedMessage id="editing.text" />
         </p>
         <section className="editing-grid">

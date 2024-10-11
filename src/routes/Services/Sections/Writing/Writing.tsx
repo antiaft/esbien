@@ -9,7 +9,7 @@ const Writing = () => {
         <h1>
           <FormattedMessage id="writing.title" />
         </h1>
-        <p>
+        <p className="introduction">
           <FormattedMessage id="writing.text" />
         </p>
         <section className="writing-grid">

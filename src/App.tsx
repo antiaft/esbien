@@ -11,6 +11,7 @@ import Privacy from './routes/Privacy/Privacy'
 import { useTranslations } from './hooks/useTranslations'
 import Legal from './routes/Legal/Legal'
 import Services from './routes/Services/Services'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 import './App.css'
 
@@ -23,6 +24,7 @@ const App = () => {
   const { currentLocale } = useTranslations()
   return (
     <ErrorBoundary key={currentLocale}>
+      <ScrollToTop />
       <Suspense fallback={<Spinner />}>
         <IntlProvider locale={currentLocale} messages={messages[currentLocale]}>
           <Routes>

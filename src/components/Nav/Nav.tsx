@@ -40,7 +40,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link className="nav-link" to="/#hello">
+          <Link className="nav-link" to="/esbien/#hello">
             <span>
               <FormattedMessage id="about-us" />
             </span>

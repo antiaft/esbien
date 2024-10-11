@@ -5,6 +5,9 @@
     h1 {
       text-wrap: balance;
     }
+    .introduction {
+      font-size: 22px;
+    }
   }
 
   @media screen and (min-width: 481px) {

@@ -1,4 +1,4 @@
-import { DotLottiePlayer } from '@dotlottie/react-player'
+
 import { FormattedMessage } from '../../../../components/Intl/FormattedMessage'
 
 import './Hello.css'
@@ -6,9 +6,7 @@ import './Hello.css'
 const Hello = () => {
   return (
     <section id="hello" className="container split-container">
-    <div className="split-side side-left">
-      <DotLottiePlayer src="/lotties/about.lottie" autoplay loop />
-    </div>
+    <div className="split-side side-left" />
     <div className="split-side side-right">
       <div className="wrapper">
         <h1><FormattedMessage id="hello.title" /></h1>
