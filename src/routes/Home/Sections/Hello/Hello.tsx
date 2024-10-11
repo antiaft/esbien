@@ -16,7 +16,6 @@ const Hello = () => {
         <p><FormattedMessage id="hello.text-2" /></p>
         <p><FormattedMessage id="hello.text-3" /></p>
         <p><FormattedMessage id="hello.text-4" /></p>
-        <p><FormattedMessage id="hello.text-5" /></p>
         <a href="/#intro"><FormattedMessage id="here" /></a>
       </div>
     </div>

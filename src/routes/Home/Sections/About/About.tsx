@@ -18,6 +18,7 @@ const About = () => {
           <p><FormattedMessage id="about-card.mari.text-1" /></p>
           <p><FormattedMessage id="about-card.mari.text-2" /></p>
           <p><FormattedMessage id="about-card.mari.text-3" /></p>
+          <p><FormattedMessage id="about-card.mari.text-4" /></p>
         </section>
       </article>
 

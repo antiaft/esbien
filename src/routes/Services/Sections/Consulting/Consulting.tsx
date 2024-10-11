@@ -9,6 +9,9 @@ const Consulting = () => {
         <h1>
           <FormattedMessage id="consulting.title" />
         </h1>
+        <p>
+          <FormattedMessage id="consulting.text" />
+        </p>
         <section className="consulting-grid">
           <article>
             <h2><FormattedMessage id="consulting.company.title" /></h2>
