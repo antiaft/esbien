@@ -4,6 +4,9 @@
   height: 100vh;
   width: 100vw;
   padding: 0.1px;
+  @supports (height: 100dvh) {
+    height: 100dvh;
+  }
   .container {
     max-width: var(--breakpoint-laptop);
     margin: 0 auto;

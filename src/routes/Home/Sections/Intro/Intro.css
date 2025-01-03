@@ -11,6 +11,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    @supports (height: 100dvh) {
+      height: 20dvh;
+    }
   }
   .split-side {
     position: relative;

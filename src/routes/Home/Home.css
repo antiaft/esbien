@@ -31,6 +31,9 @@
   @media screen and (min-width: 1025px) {
     > .split-container {
       height: calc(100vh - 80px);
+      @supports (height: 100dvh) {
+        height: calc(100dvh - 80px);
+      }
       img {
         max-height: 100%;
       }

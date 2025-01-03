@@ -1,4 +1,4 @@
-#not-found {
+#error-page {
   > .container {
     display: grid;
     place-items: center;
@@ -11,6 +11,9 @@
     h1 {
       img {
         max-height: 40vh;
+        @supports (height: 100dvh) {
+          max-height: 40dvh;
+        }
       }
     }
   }

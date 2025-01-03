@@ -2,6 +2,9 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  @supports (height: 100dvh) {
+    min-height: 100dvh;
+  }
   > .container {
     display: grid;
     place-items: center;
@@ -16,6 +19,9 @@
     h1 {
       img {
         max-height: 20vh;
+        @supports (height: 100dvh) {
+          max-height: 20dvh;
+        }
       }
     }
   }

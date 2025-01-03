@@ -5,6 +5,9 @@
   display: grid;
   place-items: center;
   background-color: var(--bg-gray-color);
+  @supports (height: 100dvh) {
+    min-height: 60dvh;
+  }
   h1 {
     max-width: 800px;
   }

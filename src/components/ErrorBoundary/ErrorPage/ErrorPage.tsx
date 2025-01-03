@@ -6,7 +6,7 @@ import './ErrorPage.css'
 
 const ErrorPage = () => {
   return (
-    <div id="not-found" className="page">
+    <div id="error-page" className="page">
       <Header />
       <div className="container">
         <h1>
