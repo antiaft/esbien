@@ -8,4 +8,9 @@
   margin: 0;
   font-weight: 700;
   width: fit-content;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
 }

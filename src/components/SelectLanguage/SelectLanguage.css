@@ -1,0 +1,43 @@
+.language-selector {
+  padding: 12px 16px 18px;
+  position: relative;
+  cursor: pointer;
+  max-width: fit-content;
+  &::before {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    pointer-events: none;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 1px rgba(0,0,0, 0.8);
+  }
+  &.es::before {
+    background-image: url('/images/intl/es.png');
+  }
+  &.gal::before {
+    background-image: url('/images/intl/gal.png');
+  }
+  > select {
+    cursor: pointer;
+    margin: 0;
+    outline: none;
+    color: var(--base-font-color);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--base-font-family);
+    padding-left: 26px;
+    background-color: #00000000;
+    border: none;
+  }
+
+  option {
+    color: white;
+    background-color: #000000bb;
+  }
+}

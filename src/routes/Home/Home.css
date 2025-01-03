@@ -6,24 +6,17 @@
     }
   }
   [id="parallax-section"] {
-    background-image: url('/images/bg-hello.png');
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+    background-image: url('/images/bulb.png');
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 500px;
     display: grid;
     place-items: center;
-    color: var(--primary-color);
     position: relative;
     overflow: hidden;
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      backdrop-filter: blur(2px);
-    }
+    background-color: white;
+    /* background-attachment: fixed; */
     h1 {
       position: relative;
     }

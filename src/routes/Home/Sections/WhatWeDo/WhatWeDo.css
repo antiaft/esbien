@@ -11,11 +11,14 @@
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     .what-card {
       background-color: white;
-      padding: 20px;
+      padding: 30px 20px;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      img {
+        max-height: 150px;
+      }
     }
     .button {
       position: relative;
@@ -26,6 +29,11 @@
       color: white;
       margin: 0;
       font-weight: 700;
+      opacity: 0.8;
+      transition: opacity 0.3s ease-in-out;
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 }

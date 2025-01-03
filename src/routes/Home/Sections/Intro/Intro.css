@@ -1,8 +1,26 @@
 #intro {
+  position: relative;
+  &:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 20vh;
+    content: '';
+    background-image: url('/images/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .split-side {
+    position: relative;
+  }
   .side-right {
     animation: fade 0.5s both ease-in-out 0.8s;
-    background-image: url('/images/whales.png');
-    background-size: cover;
+    background-image: url('/images/hero-intro.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   h1 {
     animation: fade .5s both ease-in-out 0.2s;

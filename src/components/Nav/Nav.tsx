@@ -1,63 +1,52 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import MailtoButton from '../MailtoButton/MailtoButton'
-import { FormattedMessage } from '../Intl/FormattedMessage'
-import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher'
+import { FormattedMessage } from 'react-intl'
+import { NavLink } from 'react-router'
+import MailtoButton from '@components/MailtoButton/MailtoButton'
+import SelectLanguage from '@components/SelectLanguage/SelectLanguage'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 
 import './Nav.css'
+
+const navItems = [
+  { path: '/services/creation', id: 'creation' },
+  { path: '/services/writing', id: 'writing' },
+  { path: '/services/consulting', id: 'consulting' },
+  { path: '/services/editing', id: 'editing' },
+  { path: '/about-us', id: 'about-us' }
+]
 
 export default function Nav() {
   const [openMenu, setOpenMenu] = useState(false)
   return (
     <nav id="navbar" className={`${openMenu ? 'open-menu' : ''}`}>
       <ul className="menu-panel">
-        <li>
-          <Link className="nav-link" to="/services/#creation">
-            <span>
-              <FormattedMessage id="creation" />
-            </span>
-          </Link>
-        </li>
-        <li>
-          <Link className="nav-link" to="/services/#writing">
-            <span>
-              <FormattedMessage id="writing" />
-            </span>
-          </Link>
-        </li>
-        <li>
-          <Link className="nav-link" to="/services/#consulting">
-            <span>
-              <FormattedMessage id="consulting" />
-            </span>
-          </Link>
-        </li>
-        <li>
-          <Link className="nav-link" to="/services/#editing">
-            <span>
-              <FormattedMessage id="editing" />
-            </span>
-          </Link>
-        </li>
-        <li>
-          <Link className="nav-link" to="/esbien/#hello">
-            <span>
-              <FormattedMessage id="about-us" />
-            </span>
-          </Link>
-        </li>
+        {navItems.map((item) => (
+          <li key={item.id}>
+            <NavLink
+              to={item.path}
+              className={({ isActive }) =>
+                `nav-link ${isActive ? 'active-link' : ''}`
+              }
+            >
+              <span>
+                <FormattedMessage id={item.id} />
+              </span>
+            </NavLink>
+          </li>
+        ))}
         <li>
           <MailtoButton email="destinatario@example.com">
             <FormattedMessage id="talk" />
           </MailtoButton>
         </li>
         <li>
-          <LanguageSwitcher />
+          <SelectLanguage />
         </li>
       </ul>
       <ul className="only-responsive">
-        <li>
-          <i onClick={() => setOpenMenu(!openMenu)} className="material-icons">{openMenu ? 'close' : 'menu'}</i>
+        <li onClick={() => setOpenMenu(!openMenu)}>
+          <FontAwesomeIcon icon={openMenu ? faTimesCircle : faBars} />
         </li>
       </ul>
     </nav>

@@ -1,5 +1,4 @@
-import { FormattedMessage } from '../../../../components/Intl/FormattedMessage'
-
+import { FormattedMessage } from 'react-intl'
 import './Creation.css'
 
 const Creation = () => {
@@ -17,19 +16,37 @@ const Creation = () => {
         <section className="split-container">
           <div className="split-side side-left">
             <div className="wrapper">
-              <h2><FormattedMessage id="creation.company.title" /></h2>
-              <p><FormattedMessage id="creation.company.text-1" /></p>
-              <p><FormattedMessage id="creation.company.text-2" /></p>
-              <p><FormattedMessage id="creation.company.text-3" /></p>
+              <h2>
+                <FormattedMessage id="creation.company.title" />
+              </h2>
+              <p>
+                <FormattedMessage id="creation.company.text-1" />
+              </p>
+              <p>
+                <FormattedMessage id="creation.company.text-2" />
+              </p>
+              <p>
+                <FormattedMessage id="creation.company.text-3" />
+              </p>
             </div>
           </div>
           <div className="split-side side-right">
             <div className="wrapper">
-              <h2><FormattedMessage id="creation.personal.title" /></h2>
-              <p><FormattedMessage id="creation.personal.text-1" /></p>
-              <p><FormattedMessage id="creation.personal.text-2" /></p>
-              <p><FormattedMessage id="creation.personal.text-3" /></p>
-              <p><FormattedMessage id="creation.personal.text-4" /></p>
+              <h2>
+                <FormattedMessage id="creation.personal.title" />
+              </h2>
+              <p>
+                <FormattedMessage id="creation.personal.text-1" />
+              </p>
+              <p>
+                <FormattedMessage id="creation.personal.text-2" />
+              </p>
+              <p>
+                <FormattedMessage id="creation.personal.text-3" />
+              </p>
+              <p>
+                <FormattedMessage id="creation.personal.text-4" />
+              </p>
             </div>
           </div>
         </section>

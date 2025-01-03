@@ -1,8 +1,9 @@
 [id='navbar'] {
-  i {
+  svg {
     position: relative;
     z-index: 1;
     cursor: pointer;
+    font-size: 24px;
   }
   > ul {
     display: flex;
@@ -13,12 +14,31 @@
       gap: 10px
     }
     .nav-link  {
-      padding: 10px 14px;
+      padding: 10px;
       border-radius: 14px;
       display: block;
       line-height: 1;
       color: var(--base-font-color);
       font-weight: 500;
+      position: relative;
+      transition: font-weight 0.2s ease-in-out;
+      &::after {
+        content: '';
+        background-color: transparent;
+        position: absolute;
+        height: 8px;
+        width: 8px;
+        border-radius: 100%;
+        top: 3px;
+        right: 3px;
+        transition: background-color 0.3s ease-in-out;
+      }
+      &.active-link {
+        font-weight: 700;
+        &::after {
+          background-color: var(--primary-color);
+        }
+      }
     }
   }
   @media (max-width: 768px) {
@@ -40,7 +60,7 @@
       justify-content: center;
       gap: 30px;
       transition: all 0.3s ease-in-out;
-      padding-bottom: 20vh;
+      padding: 20vh 0;
     }
     [id="restake-item"] {
       order: -1;

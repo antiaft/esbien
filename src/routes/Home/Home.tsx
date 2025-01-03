@@ -1,11 +1,10 @@
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
+import Header from '@components/Header/Header'
+import Footer from '@components/Footer/Footer'
 import Hello from './Sections/Hello/Hello'
 import WhatWeDo from './Sections/WhatWeDo/WhatWeDo'
 import About from './Sections/About/About'
 import Intro from './Sections/Intro/Intro'
 
-import '@dotlottie/react-player/dist/index.css'
 import './Home.css'
 
 const Home = () => {
@@ -19,7 +18,7 @@ const Home = () => {
       <WhatWeDo />
       <Hello />
       <About />
-      <Footer companyName='Es bien.' />
+      <Footer companyName="Es bien." />
     </div>
   )
 }

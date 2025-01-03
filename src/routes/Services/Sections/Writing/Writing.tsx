@@ -1,5 +1,4 @@
-import { FormattedMessage } from '../../../../components/Intl/FormattedMessage'
-
+import { FormattedMessage } from 'react-intl'
 import './Writing.css'
 
 const Writing = () => {
@@ -14,27 +13,57 @@ const Writing = () => {
         </p>
         <section className="writing-grid">
           <article>
-            <h2><FormattedMessage id="writing.storytelling.title" /></h2>
-            <p><FormattedMessage id="writing.storytelling.text-1" /></p>
-            <p><FormattedMessage id="writing.storytelling.text-2" /></p>
-            <p><FormattedMessage id="writing.storytelling.text-3" /></p>
+            <h2>
+              <FormattedMessage id="writing.storytelling.title" />
+            </h2>
+            <p>
+              <FormattedMessage id="writing.storytelling.text-1" />
+            </p>
+            <p>
+              <FormattedMessage id="writing.storytelling.text-2" />
+            </p>
+            <p>
+              <FormattedMessage id="writing.storytelling.text-3" />
+            </p>
           </article>
           <article>
-            <h2><FormattedMessage id="writing.social.title" /></h2>
-            <p><FormattedMessage id="writing.social.text-1" /></p>
-            <p><FormattedMessage id="writing.social.text-2" /></p>
-            <p><FormattedMessage id="writing.social.text-3" /></p>
+            <h2>
+              <FormattedMessage id="writing.social.title" />
+            </h2>
+            <p>
+              <FormattedMessage id="writing.social.text-1" />
+            </p>
+            <p>
+              <FormattedMessage id="writing.social.text-2" />
+            </p>
+            <p>
+              <FormattedMessage id="writing.social.text-3" />
+            </p>
           </article>
           <article>
-            <h2><FormattedMessage id="writing.web.title" /></h2>
-            <p><FormattedMessage id="writing.web.text-1" /></p>
-            <p><FormattedMessage id="writing.web.text-2" /></p>
-            <p><FormattedMessage id="writing.web.text-3" /></p>
+            <h2>
+              <FormattedMessage id="writing.web.title" />
+            </h2>
+            <p>
+              <FormattedMessage id="writing.web.text-1" />
+            </p>
+            <p>
+              <FormattedMessage id="writing.web.text-2" />
+            </p>
+            <p>
+              <FormattedMessage id="writing.web.text-3" />
+            </p>
           </article>
           <article>
-            <h2><FormattedMessage id="writing.book.title" /></h2>
-            <p><FormattedMessage id="writing.book.text-1" /></p>
-            <p><FormattedMessage id="writing.book.text-2" /></p>
+            <h2>
+              <FormattedMessage id="writing.book.title" />
+            </h2>
+            <p>
+              <FormattedMessage id="writing.book.text-1" />
+            </p>
+            <p>
+              <FormattedMessage id="writing.book.text-2" />
+            </p>
           </article>
         </section>
       </div>

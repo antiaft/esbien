@@ -1,0 +1,33 @@
+#not-found {
+  > .container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    strong {
+      display: block;
+      line-height: 1;
+      color: var(--primary-color);
+    }
+    h1 {
+      img {
+        max-height: 40vh;
+      }
+    }
+  }
+  @media screen and (min-width: 481px) {
+    h1 {
+      font-size: 36px;
+      strong {
+        font-size: 60px;
+      }
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    h1 {
+      font-size: 60px;
+      strong {
+        font-size: 100px
+      }
+    }
+  }
+}

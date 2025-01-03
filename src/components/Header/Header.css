@@ -3,9 +3,9 @@
   top: 0;
   left: 0;
   right: 0;
-  backdrop-filter: blur(4px);
   z-index: 2;
   animation: fadeEnter 0.5s both ease-in-out;
+  background-color: var(--secondary-color);
 }
 @keyframes fadeEnter {
   from {

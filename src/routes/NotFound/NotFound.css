@@ -1,14 +1,23 @@
 #not-found {
-  text-align: center;
-  strong {
-    display: block;
-    line-height: 1;
-    color: var(--primary-color);
-  }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   > .container {
-    min-height: 70vh;
     display: grid;
     place-items: center;
+    text-align: center;
+    height: 100%;
+    flex: 1 1 auto;
+    strong {
+      display: block;
+      line-height: 1;
+      color: var(--primary-color);
+    }
+    h1 {
+      img {
+        max-height: 20vh;
+      }
+    }
   }
   @media screen and (min-width: 481px) {
     h1 {
@@ -20,9 +29,9 @@
   }
   @media screen and (min-width: 1025px) {
     h1 {
-      font-size: 40px;
+      font-size: 60px;
       strong {
-        font-size: 80px
+        font-size: 100px
       }
     }
   }

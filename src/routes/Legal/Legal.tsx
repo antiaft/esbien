@@ -1,5 +1,5 @@
-import Footer from '../../components/Footer/Footer'
-import Header from '../../components/Header/Header'
+import Footer from '@components/Footer/Footer'
+import Header from '@components/Header/Header'
 
 import './Legal.css'
 
@@ -8,9 +8,7 @@ const Legal = () => {
     <div id="legal" className="page">
       <Header />
       <div className="container">
-        <h1>
-          AVISO LEGAL Y CONDICIONES GENERALES DE USO
-        </h1>
+        <h1>AVISO LEGAL Y CONDICIONES GENERALES DE USO</h1>
         <h2>www.esmuybien.es</h2>
         <h3>I. INFORMACIÓN GENERAL</h3>
         <p>
@@ -75,7 +73,7 @@ const Legal = () => {
           <br />
           El Sitio Web de Es bien proporciona gran diversidad de información,
           servicios y datos. El Usuario asume su responsabilidad para realizar
-          un uso correcto del Sitio Web. Esta responsabilidad se extenderá a:{" "}
+          un uso correcto del Sitio Web. Esta responsabilidad se extenderá a:{' '}
           <br />
           <br />
           -Un uso de la información, Contenidos y/o Servicios y datos ofrecidos
@@ -112,7 +110,10 @@ const Legal = () => {
           acceder y/o navegar por las páginas del Sitio Web. <br />
           <br />
         </p>
-        <h3>III. ACCESO Y NAVEGACIÓN EN EL SITIO WEB: EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD</h3>
+        <h3>
+          III. ACCESO Y NAVEGACIÓN EN EL SITIO WEB: EXCLUSIÓN DE GARANTÍAS Y
+          RESPONSABILIDAD
+        </h3>
 
         <p>
           Es bien no garantiza la continuidad, disponibilidad y utilidad del
@@ -143,17 +144,70 @@ const Legal = () => {
           provocados por el uso de dicha información. <br />
         </p>
         <h3>IV. POLÍTICA DE ENLACES</h3>
-        <p>Se informa que el Sitio Web de Es bien pone a disposición de los Usuarios medios de enlace (como, entre otros, links, banners, botones), directorios y motores de búsqueda que permiten a los Usuarios acceder a aplicaciones o sitios web pertenecientes y/o gestionados por terceros.</p>
-        <p>La instalación de estos enlaces, directorios y motores de búsqueda en el Sitio Web tiene por objeto facilitar a los Usuarios vías de contacto con Es bien y la búsqueda de y acceso a información disponible en Internet o en aplicaciones web, sin que pueda considerarse una sugerencia, recomendación o invitación para la visita de los mismos.</p>
-        <p>Es bien no ofrece ni comercializa por sí ni por medio de terceros los productos y/o servicios disponibles en dichos sitios enlazados.</p>
-        <p>Asimismo, tampoco garantizará la disponibilidad técnica, exactitud, veracidad, validez o legalidad de sitios ajenos a su propiedad a los que se pueda acceder por medio de los enlaces ni desde los que se pueda acceder al sitio web de Es bien.</p>
-        <p>Es bien en ningún caso revisará o controlará el contenido de otros sitios web, así como tampoco aprueba, examina ni hace propios los productos y servicios, contenidos, archivos y cualquier otro material existente en los referidos sitios enlazados.</p>
-        <p>Es bien no asume ninguna responsabilidad por los daños y perjuicios que pudieran producirse por el acceso, uso, calidad o licitud de los contenidos, comunicaciones, opiniones, productos y servicios de los sitios web no gestionados por Es bien y que sean enlazados en este Sitio Web.</p>
-        <p>El Usuario o tercero que realice un hipervínculo desde una página web de otro, distinto, sitio web al Sitio Web de Es bien deberá saber que:</p>
-        <p>No se permite la reproducción —total o parcialmente— de ninguno de los Contenidos y/o Servicios del Sitio Web sin autorización expresa de Es bien.</p>
-        <p>No se permite tampoco ninguna manifestación falsa, inexacta o incorrecta sobre el Sitio Web de Es bien, ni sobre los Contenidos y/o Servicios del mismo.</p>
-        <p>A excepción del hipervínculo, el sitio web en el que se establezca dicho hiperenlace no contendrá ningún elemento, de este Sitio Web, protegido como propiedad intelectual por el ordenamiento jurídico español, salvo autorización expresa de Es bien.</p>
-        <p>El establecimiento del hipervínculo no implicará la existencia de relaciones entre Es bien y el titular del sitio web desde el cual se realice, ni el conocimiento y aceptación de Es bien de los contenidos, servicios y/o actividades ofrecidas en dicho sitio web, y viceversa</p>
+        <p>
+          Se informa que el Sitio Web de Es bien pone a disposición de los
+          Usuarios medios de enlace (como, entre otros, links, banners,
+          botones), directorios y motores de búsqueda que permiten a los
+          Usuarios acceder a aplicaciones o sitios web pertenecientes y/o
+          gestionados por terceros.
+        </p>
+        <p>
+          La instalación de estos enlaces, directorios y motores de búsqueda en
+          el Sitio Web tiene por objeto facilitar a los Usuarios vías de
+          contacto con Es bien y la búsqueda de y acceso a información
+          disponible en Internet o en aplicaciones web, sin que pueda
+          considerarse una sugerencia, recomendación o invitación para la visita
+          de los mismos.
+        </p>
+        <p>
+          Es bien no ofrece ni comercializa por sí ni por medio de terceros los
+          productos y/o servicios disponibles en dichos sitios enlazados.
+        </p>
+        <p>
+          Asimismo, tampoco garantizará la disponibilidad técnica, exactitud,
+          veracidad, validez o legalidad de sitios ajenos a su propiedad a los
+          que se pueda acceder por medio de los enlaces ni desde los que se
+          pueda acceder al sitio web de Es bien.
+        </p>
+        <p>
+          Es bien en ningún caso revisará o controlará el contenido de otros
+          sitios web, así como tampoco aprueba, examina ni hace propios los
+          productos y servicios, contenidos, archivos y cualquier otro material
+          existente en los referidos sitios enlazados.
+        </p>
+        <p>
+          Es bien no asume ninguna responsabilidad por los daños y perjuicios
+          que pudieran producirse por el acceso, uso, calidad o licitud de los
+          contenidos, comunicaciones, opiniones, productos y servicios de los
+          sitios web no gestionados por Es bien y que sean enlazados en este
+          Sitio Web.
+        </p>
+        <p>
+          El Usuario o tercero que realice un hipervínculo desde una página web
+          de otro, distinto, sitio web al Sitio Web de Es bien deberá saber que:
+        </p>
+        <p>
+          No se permite la reproducción —total o parcialmente— de ninguno de los
+          Contenidos y/o Servicios del Sitio Web sin autorización expresa de Es
+          bien.
+        </p>
+        <p>
+          No se permite tampoco ninguna manifestación falsa, inexacta o
+          incorrecta sobre el Sitio Web de Es bien, ni sobre los Contenidos y/o
+          Servicios del mismo.
+        </p>
+        <p>
+          A excepción del hipervínculo, el sitio web en el que se establezca
+          dicho hiperenlace no contendrá ningún elemento, de este Sitio Web,
+          protegido como propiedad intelectual por el ordenamiento jurídico
+          español, salvo autorización expresa de Es bien.
+        </p>
+        <p>
+          El establecimiento del hipervínculo no implicará la existencia de
+          relaciones entre Es bien y el titular del sitio web desde el cual se
+          realice, ni el conocimiento y aceptación de Es bien de los contenidos,
+          servicios y/o actividades ofrecidas en dicho sitio web, y viceversa
+        </p>
         <h3>V. PROPIEDAD INTELECTUAL E INDUSTRIAL</h3>
         <p>
           Es bien por sí o como parte cesionaria, es titular de todos los

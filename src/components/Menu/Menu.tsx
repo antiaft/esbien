@@ -1,16 +1,16 @@
 import Nav from '../Nav/Nav'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 
-import logo from '/images/logo.png'
+import logo from '@static/images/logo.png'
 import './Menu.css'
 
 export default function Menu() {
   return (
-    <ul id="menu">
-      <Link to="/esbien">
+    <menu id="menu" className="container">
+      <Link to="/">
         <img src={logo} alt="es bien logo" />
       </Link>
       <Nav />
-    </ul>
+    </menu>
   )
 }
