@@ -4,12 +4,11 @@ import Analytics from './Analytics'
 
 export default function Meta() {
   const intl = useIntl()
-  // TODO real meta data (image, url)
   const title = intl.formatMessage({ id: 'meta.title' })
   const description = intl.formatMessage({ id: 'meta.description' })
   const keywords = intl.formatMessage({ id: 'meta.keywords' })
-  const image = ''
-  const url = ''
+  const image = 'https://i.imgur.com/mOAInor.png'
+  const url = 'https://esmuybien.es'
 
   return (
     <>

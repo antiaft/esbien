@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router'
+import Meta from '@components/Meta/Meta'
 import Home from './Home/Home'
 import Legal from './Legal/Legal'
 import Privacy from './Privacy/Privacy'
@@ -14,6 +15,7 @@ import ErrorPage from '@components/ErrorBoundary/ErrorPage/ErrorPage'
 
 const App = () => (
   <ErrorBoundary fallback={<ErrorPage />}>
+    <Meta />
     <ScrollToTop />
     <Routes>
       <Route path="/" index element={<Home />} />
