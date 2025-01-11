@@ -1,0 +1,11 @@
+.banner-service {
+  height: min(50vh, 700px);
+  padding: 5vh 20px;
+  background-color: var(--secondary-color);
+  .hero-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+  }
+}

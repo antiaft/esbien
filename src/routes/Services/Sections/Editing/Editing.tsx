@@ -1,4 +1,6 @@
 import { FormattedMessage } from 'react-intl'
+import BannerService from '../BannerService/BannerService'
+
 import './Editing.css'
 
 const Editing = () => {
@@ -70,6 +72,7 @@ const Editing = () => {
           </article>
         </section>
       </div>
+      <BannerService service="editing" />
     </section>
   )
 }

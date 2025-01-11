@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async'
 
 export default function Analytics() {
   // TODO: add real googletagmanagerId
-  const googletagmanagerId = 'G-XXXXXXXXXX'
+  const googletagmanagerId = 'GTM-5VHWSFKS'
   const scriptText = `
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

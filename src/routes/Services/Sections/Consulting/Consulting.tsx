@@ -1,4 +1,5 @@
 import { FormattedMessage } from 'react-intl'
+import BannerService from '../BannerService/BannerService'
 
 import './Consulting.css'
 
@@ -57,6 +58,7 @@ const Consulting = () => {
           </article>
         </section>
       </div>
+      <BannerService service="consulting" />
     </section>
   )
 }

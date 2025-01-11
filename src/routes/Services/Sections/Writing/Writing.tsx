@@ -1,9 +1,12 @@
 import { FormattedMessage } from 'react-intl'
+import BannerService from '../BannerService/BannerService'
+
 import './Writing.css'
 
 const Writing = () => {
   return (
     <section id="writing">
+      <BannerService service="writing" />
       <div className="container">
         <h1>
           <FormattedMessage id="writing.title" />
@@ -67,6 +70,7 @@ const Writing = () => {
           </article>
         </section>
       </div>
+      <BannerService service="writing" />
     </section>
   )
 }

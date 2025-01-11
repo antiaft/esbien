@@ -2,7 +2,7 @@ import { FormattedMessage } from 'react-intl'
 import { Link } from 'react-router'
 import SocialLinks from '@components/SocialLinks/SocialLinks'
 
-import hand from '@static/images/hand.png'
+import hand from '@static/images/footer-hand.png'
 import './Footer.css'
 
 interface FooterProps {

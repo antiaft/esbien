@@ -1,18 +1,18 @@
 import { FormattedMessage } from 'react-intl'
+import BannerService from '../BannerService/BannerService'
+
 import './Creation.css'
 
 const Creation = () => {
   return (
     <section id="creation">
-      <section id="creation-banner">
+      <div className="container">
         <h1>
           <FormattedMessage id="creation.title" />
         </h1>
         <p className="introduction">
           <FormattedMessage id="creation.text" />
         </p>
-      </section>
-      <div className="container">
         <section className="split-container">
           <div className="split-side side-left">
             <div className="wrapper">
@@ -51,6 +51,7 @@ const Creation = () => {
           </div>
         </section>
       </div>
+      <BannerService service="creation" />
     </section>
   )
 }

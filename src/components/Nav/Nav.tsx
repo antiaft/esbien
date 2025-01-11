@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { FormattedMessage } from 'react-intl'
 import { NavLink } from 'react-router'
-import MailtoButton from '@components/MailtoButton/MailtoButton'
 import SelectLanguage from '@components/SelectLanguage/SelectLanguage'
+import DialogButton from '@components/DialogButton/DialogButton'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 
@@ -36,9 +36,7 @@ export default function Nav() {
           </li>
         ))}
         <li>
-          <MailtoButton email="destinatario@example.com">
-            <FormattedMessage id="talk" />
-          </MailtoButton>
+          <DialogButton />
         </li>
         <li>
           <SelectLanguage />

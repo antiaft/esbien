@@ -10,12 +10,8 @@ const Newsletter = () => {
         <h1>
           <FormattedMessage id="newsletter.title" />
         </h1>
-        <MailtoButton
-          email="destinatario@example.com"
-          subject="Newsletter"
-          body="Quiero suscribirme a vuestra newsletter"
-        >
-          Enviádmela, porfa
+        <MailtoButton email="destinatario@example.com">
+          <FormattedMessage id="talk" />
         </MailtoButton>
       </div>
     </section>
