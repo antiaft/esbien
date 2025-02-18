@@ -12,6 +12,7 @@ import ErrorBoundary from '@components/ErrorBoundary/ErrorBoundary'
 import ScrollToTop from '@components/ScrollToTop/ScrollToTop'
 import NotFound from './NotFound/NotFound'
 import ErrorPage from '@components/ErrorBoundary/ErrorPage/ErrorPage'
+import AboutPage from './AboutPage/AboutPage'
 
 const App = () => (
   <ErrorBoundary fallback={<ErrorPage />}>
@@ -25,6 +26,7 @@ const App = () => (
         <Route path="editing" element={<Editing />} />
         <Route path="writing" element={<Writing />} />
       </Route>
+      <Route path="/about-us" element={<AboutPage />} />
       <Route path="/privacy" element={<Privacy />} />
       <Route path="/legal" element={<Legal />} />
       <Route path="*" element={<NotFound />} />
