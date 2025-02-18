@@ -1,5 +1,5 @@
 #editing {
-  padding: 30px 0px;
+  padding: 0;
   background-color: var(--primary-color);
   h1 {
     color: white;
@@ -15,6 +15,7 @@
     justify-content: center;
     gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    padding-bottom: 20px;
     > article {
       background-color: white;
       padding: 20px;

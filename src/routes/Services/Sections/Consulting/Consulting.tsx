@@ -6,6 +6,7 @@ import './Consulting.css'
 const Consulting = () => {
   return (
     <section id="consulting">
+      <BannerService service="consulting" />
       <div className="container">
         <h1>
           <FormattedMessage id="consulting.title" />
