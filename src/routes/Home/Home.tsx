@@ -6,6 +6,7 @@ import About from './Sections/About/About'
 import Intro from './Sections/Intro/Intro'
 
 import './Home.css'
+import { FormattedMessage } from '@components/FormattedMessage/FormattedMessage'
 
 const Home = () => {
   return (
@@ -13,7 +14,9 @@ const Home = () => {
       <Header />
       <Intro />
       <section id="parallax-section">
-        <h1>Tu historia es buena, contarla ES BIEN.</h1>
+        <h1>
+          <FormattedMessage id="bulb.title" />
+        </h1>
       </section>
       <WhatWeDo />
       <Hello />

@@ -1,8 +1,8 @@
 {
   "meta.title": "Es bien, Historias que cuentan",
   "meta.description": "Laboratorio lingüístico para personas y proyectos ecosociales. En gallego y en español.",
-  "meta.keywords": "",
-
+  "meta.keywords": "historias, contar, lingüístico, proyectos ecosociales, gallego, español, laboratorio lingüístico, narración, comunicación, storytelling",
+  "bulb.title": "Tu historia es buena, contarla ES BIEN.",
   "not-found": "Not found",
   "creation": "Creación",
   "consulting": "Consultoría",
@@ -16,122 +16,96 @@
   "what-card.narrative": "Creación",
   "what-card.narrative-1": "# Identidad de empresa (storytelling desde cero, voz corporativa, imaginario de marca, manual de estilo corporativo).",
   "what-card.narrative-2": "# Identidad personal (diseño y comunicación de tu historia de impacto).",
-
   "what-card.writing": "Redacción",
   "what-card.writing-1": "# Storytelling personal y empresarial.",
   "what-card.writing-2": "# Redacción social, ética y verde (artículos temáticos, newsletters).",
   "what-card.writing-3": "# Textos web corporativos y personales.",
   "what-card.writing-4": "# Conversión de tu historia en libro.",
-
   "what-card.consulting": "Consultoría",
   "what-card.consulting-1": "Esto no va de marketing, va de conectar. A veces tu idea es buena pero le falta forma y necesitas orientación.",
   "what-card.consulting-2": "# Comunicación para empresas y proyectos.",
   "what-card.consulting-3": "# Comunicación personal.",
   "what-card.consulting-4": "# Coherencia en el discurso.",
-
   "what-card.editing": "Corrección",
   "what-card.editing-1": "# Ortotipográfica y gramatical.",
   "what-card.editing-2": "# De estilo.",
   "what-card.editing-3": "# Eliminación de sesgos.",
   "what-card.editing-4": "# Servicio especial gallego (idiomaticidad y errores frecuentes).",
   "what-card.editing-5": "# Traducción a gallego.",
-
   "here": "¡Aquí es!",
   "hello.title": "Nosotras",
   "hello.text-1": "Es bien somos Antía y María. Amigas desde los 15, rodeadas de libros desde los 3.",
   "hello.text-2": "Una es zurda, la otra diestra. Una tiene estilo, la otra imaginación. Una escribe mucho, la otra escribe más.",
   "hello.text-3": "En 2023 nos dimos cuenta de que éramos dos piezas que encajaban y nos unimos para cambiar el cuento.",
   "hello.text-4": "Si nos explicas tu historia, la haremos más fascinante. ¿No sabes por dónde empezar? Pues...",
-
   "about-card.mari.title": "Compromiso y corrección lingüística",
   "about-card.mari.text-1": "María se encarga de encontrar las palabras que llevabas tanto tiempo buscando.",
   "about-card.mari.text-2": "Comprometida con el medio ambiente y las personas, y cofundadora de la editorial Catro Ventos (¡investígala!), el último test de personalidad que ha hecho dice que es creativa, didáctica y emocional, y por fin se ha dado cuenta de que es verdad.",
   "about-card.mari.text-3": "Trabaja  como traductora, redactora, correctora y procesadora de lenguaje natural (eso de que las máquinas entiendan lo que decimos), habla italiano, portugués, inglés, gallego y español, y se ha especializado en redacción social, comunicación de impacto y storytelling ético.",
   "about-card.mari.text-4": "Le encanta la naturaleza, los bichos, caminarlo todo y coleccionar los stickers de Antía. Tiende a llevarse demasiados libros de la biblio a la vez. Ah, y es la zurda de las dos.",
-
   "about-card.anti.title": "Transformación y comunicación creativa",
   "about-card.anti.text-1": "Antía es filóloga, comunicadora, redactora creativa, marketera y profe de formación, profesión y, sobre todo, vocación. Comunica para que haya un cambio hacia un modelo sostenible y humano, educa para mantenerlo en el tiempo.",
   "about-card.anti.text-2": "Tiene un don para conectar conceptos, cosas y gentes y, aunque es firme defensora de la palabra como instrumento para la vida, guarda tal colección de stickers que podría mantener todas las conversaciones del día de forma coherente y adecuada sin necesidad de teclear ni una letra.",
   "about-card.anti.text-3": "Da igual en qué momento el día la interceptes: es probable que esté pensando en comida. O hablando de comida. O comiendo. La abuela gallega que lleva en su interior no le da tregua.",
-
   "newsletter.title": "Suscribirte a nuestra newsletter, es bien.",
-
   "intro.title": "Historias que cuentan.",
   "intro.text": "Laboratorio lingüístico para personas y proyectos ecosociales. En gallego y en español.",
-
   "creation.title": "Creación.",
   "creation.text": "¿Por dónde empezar?",
-
   "writing.title": "Redacción.",
   "writing.text": "Para comunicar tu proyecto con tu lenguaje, necesitas expertas que lo entiendan y sepan hablarlo.",
-
   "consulting.title": "Consultoría.",
   "consulting.text": "Hay dudas que tu almohada no va a resolver, pero nosotras sí.",
-
   "editing.title": "Corrección.",
   "editing.text": "Los detalles finales son los que más cuestan. Delégalos en profesionales de la lengua y sus  matices.",
-
   "privacy": "Política de privacidad",
   "legal": "Aviso legal",
-
   "creation.company.title": "Identidad de empresa",
   "creation.company.text-1": "Crea tu ecosistema de marca desde cero. Eslogan clave, mensaje, perfil de empresa y datos de impacto.",
   "creation.company.text-2": "Te entregamos un dossier de comunicación con las claves de tu narrativa. Transmite desde la emoción, con sencillez y claridad.",
   "creation.company.text-3": "Trabajamos con pymes de la economía social y circular, empresas de triple balance y proyectos sostenibles. Nuestros clientes aportan soluciones. ¿Nuestro objetivo? Que lleguen e inspiren.",
-
   "creation.personal.title": "Identidad personal",
   "creation.personal.text-1": "Tu historia es tu huella y tu identidad personal debe estar en línea con tu proyecto.",
   "creation.personal.text-2": "Encontramos tus puntos de conexión con los demás para que tu mensaje empodere y ayude al cambio en el que crees.",
   "creation.personal.text-3": "Damos con el lenguaje que te representa y que te permita intervenir en público dejando tus miedos atrás. Transmite tu mensaje desde tu comodidad.",
   "creation.personal.text-4": "Sabes que eres bueno, te enseñamos a contarlo.",
-
   "writing.storytelling.title": "Storytelling",
   "writing.storytelling.text-1": "Tú nos cuentas tu mensaje tus logros, tu impacto y tus dificultades, nosotros escribimos tu historia.",
   "writing.storytelling.text-2": "No solo se trata de convencer, sino de dar ejemplo. Escribimos tu historia para que hable de ti y de la huella que quieres dejar en el mundo.",
   "writing.storytelling.text-3": "Estampas ordinarias convertidas en historias extraordinarias.",
-
   "writing.social.title": "Redacción social",
   "writing.social.text-1": "Nos fiamos más de los algoritmos que de los humanos y por eso todos los textos se parecen.",
   "writing.social.text-2": "Escribimos tus newsletters, artículos, (o te proponemos los nuestros) con ingenio, transparencia y pasión.",
   "writing.social.text-3": "Comunicación sensorial con conciencia social. La lectura deliciosa engancha.",
-
   "writing.web.title": "Storytelling",
   "writing.web.text-1": "Cuéntanos de qué va tu web y crearemos los contenidos.",
   "writing.web.text-2": "Humaniza tus textos e inspira. Conecta con la gente con un propósito común y haz que suceda la magia.",
   "writing.web.text-3": "Ofrecemos también servicios de SEO.",
-
   "writing.book.title": "Tu historia en libro",
   "writing.book.text-1": "Regala al abuelo un libro con la aventura que siempre cuenta, deja por escrito todas las anécdotas de aquel viaje de amigas o reúne las recetas de la familia para Navidad.",
   "writing.book.text-2": "Llamanos o mándanos un audio con ese recuerdo especial que quieres dejar para la posteridad.",
-
   "consulting.company.title": "Comunicación empresarial.",
   "consulting.company.text-1": "Tu proyecto es bueno, pero no llega, no impacta. Algo falla. Analizamos la cohesión y coherencia de tus actos comunicativos como marca.",
   "consulting.company.text-2": "¿Existe un hilo conductor entre todos los miembros? ¿Un perfil empresarial claro? ¿Una voz que os define?",
   "consulting.company.text-3": "Aprende a hablar bien de tu empresa. Nos interesa tu impacto.",
-
   "consulting.personal.title": "Comunicación personal.",
   "consulting.personal.text-1": "¿Tienes la idea pero la estrategia falla? A veces, saber parar a tiempo nos ayuda a avanzar más rápido.",
   "consulting.personal.text-2": "Revisamos tus apariciones e intervenciones en prensa para asesorarte en tu relato. Aprende a hablar de tu marca personal para que siempre parezca la primera vez.",
   "consulting.personal.text-3": "Tu historia es un orgullo, disfruta contándola.",
-
   "consulting.coherence.title": "Coherencia en el discurso.",
   "consulting.coherence.text-1": "¿Eres coherente en todas tus publicaciones y apariciones? ¿Y el resto de tu equipo?",
   "consulting.coherence.text-2": "Vertebramos tu lenguaje y modo de expresarte, y creamos un libro de estilo para que potencies tu impacto local.",
   "consulting.coherence.text-3": "Pon foco en tu enfoque verde y social.",
-
   "editing.orto.title": "Ortotipográfica.",
   "editing.orto.text-1": "Revisión de errores gramaticales, ortográficos y de puntuación.",
   "editing.orto.text-2": "Textos web, newsletters, libros, artículos, tesis y publicaciones.",
   "editing.orto.text-3": "Un mensaje bien escrito llega a más mentes y transmite profesionalidad y atención por los detalles.",
-
   "editing.style.title": "De estilo.",
   "editing.style.text-1": "Un texto puede estar bien escrito y no entenderse en absoluto.",
   "editing.style.text-2": "Además de subsanar gramática y ortotipografía, revisamos la fluidez, legibilidad y comprensión del mensaje. Garantizamos la claridad y coherencia, eliminando ambigüedades del discurso.",
-
   "editing.deleting.title": "Eliminación de sesgos.",
   "editing.deleting.text-1": "Somos expertas en lenguaje inclusivo, respetuoso y sin etiquetas.",
   "editing.deleting.text-2": "Nuestro imaginario colectivo está sesgado y puede discriminar a grupos vulnerables. Revisamos tu comunicación para que sea igualitaria sin dejar de sonar orgánica.",
-
   "editing.galician.title": "Gallego.",
   "editing.galician.text-1": "Mejora oral o escrita de tu expresión en gallego. Analizamos tu comunicación y depuramos los errores frecuentes. Trabajo a medida.",
   "editing.galician.text-2": "¿Te gustaría que tus textos fuesen bilingües pero con la IA quedan un poco rancios? Nos encargamos de {bold} lo que tú quieras. O de escribirlo desde cero.",
